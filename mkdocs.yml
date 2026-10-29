@@ -1,0 +1,69 @@
+site_name: Analytics Tagging Playbook
+site_description: Our standard for Adobe Analytics and Google Analytics 4 tagging
+repo_url: https://github.com/attributedata/analytics-tagging-playbook
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  logo: assets/logo-white.png
+  favicon: assets/logo.png
+  font:
+    text: Open Sans
+    code: Roboto Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - toc.follow
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+nav:
+  - Home: index.md
+  - Start here:
+      - Placeholders and conventions: conventions.md
+      - How to contribute: contributing.md
+  - Setup:
+      - Library Installation: tags/embed-code.md
+      - Data Layer: tags/data-layer.md
+  - Analytics Config:
+      - Marketing Channels: tags/marketing-channels.md
+  - Core tags:
+      - Page Naming: tags/page-naming.md
+      - Site Sections: tags/site-sections.md
+      - Site Search: tags/site-search.md
+      - Form Tracking: tags/form-tracking.md
+      - Universal Clickthrough: tags/clickthrough.md
+      - File Downloads: tags/file-downloads.md
+      - Error Tracking: tags/error-tracking.md
+      - Content Page Tracking: tags/content-pages.md
+      - Video Tracking: tags/video-tracking.md
+  - Supporting config:
+      - Event Serialization: tags/event-serialization.md
+  - Testing:
+      - QA and Debugging: tags/qa-debugging.md
