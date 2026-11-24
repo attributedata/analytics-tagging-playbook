@@ -3,9 +3,6 @@
 Status: **Draft** · Owner: **Parikshit Shinge** · Last reviewed: **29-Oct-2026**
 { .page-meta }
 
-!!! warning "Not tested yet"
-    This tag started as a proposal and has not been tested on a live property. Check the open questions under [Notes](#notes) before you use it on a project.
-
 ## What this tracks and why
 How many people start, finish and drop out of videos on the site.
 
